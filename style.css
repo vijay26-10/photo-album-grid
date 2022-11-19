@@ -1,0 +1,23 @@
+#photoArray{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+        "photoOne photoTwo photoThree"
+        "photoOne photoFour photoFive";
+    grid-template-columns: 1fr 24% 26%;
+}
+
+#photoArray > div:first-child{
+    grid-area: photoOne;
+}
+.img-1{
+    height: 366px;
+}
+.img-2,.img-3,.img-4,.img-5{
+    height: 155px;
+
+}
+.img-6,.img-7{
+    height: 270px;
+    width: 550px;
+}
